@@ -1,0 +1,220 @@
+body {
+	margin: 0px;
+	font-family: 'segoe ui';
+	background-color: #eccc68;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Laptop Screen */
+.navbar {
+	width: 100%;
+	height: 40px;
+	z-index: 10;
+	position: fixed;
+}
+
+.menu {
+	height: 50px;
+	width: 100px;	
+	float: right;
+	text-transform: uppercase;
+	margin-top: 10px;
+	position: relative;
+	transition: all 1s;
+	color: #fff;
+}
+
+.menu:hover{
+	color: grey;
+	width: 200px;
+}
+
+.banner {
+	height: 500px;
+	width: 100%;
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+.main {
+	left: 20%;
+	right: 20%;
+	top: 30%;
+	position: absolute;
+}
+
+
+.search {
+	padding: 0 100px 15px 100px;
+	background-color: rgba(189, 197, 129,0.5);
+	color: white;
+	display: inline-block;
+}
+
+input[type=text] {
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+button {
+	width: 10%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	background-color: rgba(234, 181, 67,1.0);
+}
+
+.container {
+	width: 800px;
+	padding: 15px;
+	margin: 150px auto;
+	background-color: #f1f2f6;
+}
+
+.top-news p {
+	text-align: center;
+	padding-bottom: 10px; 
+	border-bottom: 1px solid grey;
+	font-weight: bold;
+}
+
+.news {
+	display: flex;
+}
+
+.news-left {
+	width: 60%;
+}
+
+.news-left img {
+	width: 450px;
+	height: 250px;
+	padding: 10px;
+	border-right: 1px solid black;
+}
+
+.news-right {
+	padding: 20px;
+	width: 25%;
+	border-left: 1px solid black;
+}
+
+.news p {
+	font-size: 12px;
+}
+
+.news-left-side {
+	width: 30%;
+}
+
+.news-left-side img {
+	width: 210px;
+	height: 210px;
+	padding: 10px;
+}
+
+.news-right-side {
+	padding: 20px;
+	width: 25%;
+	border-left: 1px solid black;
+}
+
+.news-center {
+	padding: 20px;
+	width: 30%;
+	border-left: 1px solid black;
+}
+
+.container button {
+	color: white;
+	border-radius: 5px;
+	width: 20%;
+	margin: 15px 300px;
+
+}
+
+
+.content {
+	height: 835px;
+	width: 100%;
+}
+
+.footer {
+	height: 75px;
+	width: 100%;
+	background-color: grey;
+}
+
+
+/* Tablet screen */
+@media screen and (max-width: 1100px) {
+	.main {
+		left: 20%;
+		right: 20%;
+		top: 30%;
+		position: absolute;
+	}
+
+	input[type=text] {
+		width: 70%;
+	}
+
+	button {
+		width: 10%;
+	}
+
+	.search {
+		padding: 0 30px 5px 30px;
+	}
+
+	.search h1 {
+		font-size: 25px;
+	}
+
+	.container {
+		width: 600px;
+		margin: 100px auto;
+	}
+}
+
+
+/* handphone screen */
+@media screen and (max-width: 678px) {
+	.main {
+		left: 10%;
+		right: 10%;
+		top: 30%;
+		position: absolute;
+	}
+
+	input[type=text] {
+		width: 50%;
+	}
+
+	button {
+		width: 20%;
+	}
+
+	.search {
+		padding: 0 30px 5px 30px;
+	}
+
+	.search h1 {
+		font-size: 20px;
+	}
+
+	.container {
+		width: 400px;
+		margin: 100px auto;
+	}
+
+	.top-news p {
+		font-size: 12px;
+	}
+}
