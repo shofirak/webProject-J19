@@ -155,11 +155,40 @@ button {
 }
 
 .footer {
-	height: 75px;
+	height: 140px;
 	width: 100%;
-	background-color: grey;
+	background-color: brown;
+	margin: 0 auto;
+	padding-top: 25px;
 }
 
+.footer-list {
+  margin-bottom: 10px;
+  transition: all 1s;
+  }
+
+.footer-list:hover {
+  background-color: black;
+}
+
+.footer-list ul {
+  font-size: 15px;
+  color: #fff;
+  float: left;
+  list-style: none;
+  width: 250px;
+  padding: all 10px;
+  margin: 0 20px 10px 15px;
+}
+
+.footer-list:active {
+  background-color: black;
+}
+
+.footer-list li {
+  font-size: 12px;
+  color: #F79F1F;
+}
 
 /* Tablet screen */
 @media screen and (max-width: 1100px) {
