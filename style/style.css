@@ -145,7 +145,6 @@ button {
 	border-radius: 5px;
 	width: 20%;
 	margin: 15px 300px;
-
 }
 
 
@@ -158,31 +157,26 @@ button {
 	height: 140px;
 	width: 100%;
 	background-color: brown;
-	margin: 0 auto;
+	margin: 0;
 	padding-top: 25px;
 }
 
 .footer-list {
   margin-bottom: 10px;
   transition: all 1s;
-  }
+  display: flex;
+}
 
-.footer-list:hover {
+.footer:hover {
   background-color: black;
 }
 
 .footer-list ul {
   font-size: 15px;
   color: #fff;
-  float: left;
   list-style: none;
-  width: 250px;
   padding: all 10px;
   margin: 0 20px 10px 15px;
-}
-
-.footer-list:active {
-  background-color: black;
 }
 
 .footer-list li {
@@ -219,6 +213,23 @@ button {
 		width: 600px;
 		margin: 100px auto;
 	}
+
+
+	.footer-list {
+	  margin-bottom: 5px;
+	  transition: all 1s;
+	  display: flex;
+	}
+
+	.footer-list ul {
+		font-size: 12px;
+		padding: all 10px;
+		margin: 0 10px 5px 10px;
+	}
+
+	.footer-list li {
+		font-size: 10px;
+	}
 }
 
 
@@ -254,5 +265,25 @@ button {
 
 	.top-news p {
 		font-size: 12px;
+	}
+
+	.footer {
+		height: 250px;
+	}
+
+	.footer-list {
+		margin-bottom: 5px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.footer-list ul {
+		font-size: 12px;
+		padding: all 10px;
+		margin: 5px;
+	}
+
+	.footer-list li {
+		font-size: 10px;
 	}
 }
