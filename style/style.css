@@ -10,6 +10,15 @@ a {
 
 
 /* Laptop Screen */
+.logo img {
+	padding: 15px;
+	float: left;
+	height: 30px;
+	width: 80px;
+	z-index: 10;
+	position: fixed;
+}
+
 .navbar {
 	width: 100%;
 	height: 40px;
