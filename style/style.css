@@ -214,6 +214,20 @@ button {
 		margin: 100px auto;
 	}
 
+	.news-left img {
+		width: 330px;
+		height: 250px;
+		padding: 10px;
+		border-right: 1px solid black;
+	}
+
+
+	.news-left-side img {
+		width: 160px;
+		height: 320px;
+		padding: 10px;
+	}
+
 
 	.footer-list {
 	  margin-bottom: 5px;
@@ -261,13 +275,30 @@ button {
 	.container {
 		width: 400px;
 		margin: 100px auto;
+
 	}
 
 	.top-news p {
 		font-size: 12px;
 	}
 
+
+	.news-left img {
+		width: 220px;
+		height: 250px;
+		padding: 10px;
+	}
+
+
+	.news-left-side img {
+		width: 100px;
+		height: 220px;
+		padding: 10px;
+		margin: 100px auto;
+	}
+
 	.footer {
+		margin-top: 100px;
 		height: 250px;
 	}
 
